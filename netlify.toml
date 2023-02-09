@@ -4,6 +4,12 @@ for = "/*"
 Referrer-Policy = "no-referrer"
 
 [[redirects]]
+from = "/status"
+to = "/status.html"
+status = 200
+force = true
+
+[[redirects]]
 from = "/"
 to = "https://fayln.com"
 status = 307

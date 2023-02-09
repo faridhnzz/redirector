@@ -33,5 +33,6 @@
       "source": "/polywork",
       "destination": "https://www.polywork.com/faridnizam"
     }
-  ]
+  ],
+  "rewrites": [{ "source": "/status", "destination": "/status.html" }]
 }
