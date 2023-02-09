@@ -1,17 +1,29 @@
 [[redirects]]
+from = "/"
+to = "https://fayln.com"
+status = 302
+force = true
+
+[[redirects]]
 from = "/instagram"
 to = "https://www.instagram.com/faridhnzz"
 status = 302
 force = true
+[redirects.headers]
+Referrer-Policy = "no-referrer"
 
 [[redirects]]
 from = "/twitter"
 to = "https://twitter.com/faridhnzz"
 status = 302
 force = true
+[redirects.headers]
+Referrer-Policy = "no-referrer"
 
 [[redirects]]
 from = "/github/*"
 to = "https://github.com/faridhnzz/:splat"
 status = 302
 force = true
+[redirects.headers]
+Referrer-Policy = "no-referrer"
