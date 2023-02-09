@@ -1,0 +1,17 @@
+[[redirects]]
+from = "/instagram"
+to = "https://www.instagram.com/faridhnzz"
+status = 302
+force = true
+
+[[redirects]]
+from = "/twitter"
+to = "https://twitter.com/faridhnzz"
+status = 302
+force = true
+
+[[redirects]]
+from = "/github/*"
+to = "https://github.com/faridhnzz/:splat"
+status = 302
+force = true
