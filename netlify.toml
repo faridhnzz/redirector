@@ -1,5 +1,6 @@
 [build]
-  functions = "functions"
+  command = "pnpm install --no-frozen-lockfile"
+  functions = "netlify/functions"
 
 [[redirects]]
   from = "/"

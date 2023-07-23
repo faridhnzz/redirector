@@ -14,7 +14,7 @@ These are the available config options for `data/redirect.json`
   "name": "github",
   "href": "https://github.com/faridhnzz",
   "aliases": "gh", // optional
-  "statusCode": 302; // optional
+  "statusCode": 302 // optional
 }
 ```
 
