@@ -1,46 +1,15 @@
-[[headers]]
-for = "/*"
-[headers.values]
-Referrer-Policy = "no-referrer"
+[[redirects]]
+  from = "/"
+  to = "https://fayln.com"
+  status = 301
 
 [[redirects]]
-from = "/status"
-to = "/status.html"
-status = 200
-force = true
+  from = "/:name"
+  to = "/.netlify/functions/redirect/:name"
+  status = 200
 
 [[redirects]]
-from = "/"
-to = "https://fayln.com"
-status = 307
-force = true
+  from = "/:name/:path"
+  to = "/.netlify/functions/redirect/:name/:path"
+  status = 200
 
-[[redirects]]
-from = "/github/*"
-to = "https://github.com/faridhnzz/:splat"
-status = 307
-force = true
-
-[[redirects]]
-from = "/instagram"
-to = "https://www.instagram.com/faridhnzz/"
-status = 307
-force = true
-
-[[redirects]]
-from = "/twitter"
-to = "https://twitter.com/faridhnzz"
-status = 307
-force = true
-
-[[redirects]]
-from = "/polywork"
-to = "https://www.polywork.com/faridnizam"
-status = 307
-force = true
-
-[[redirects]]
-from = "/linkedin"
-to = "https://www.linkedin.com/in/faridhnzz/"
-status = 307
-force = true
