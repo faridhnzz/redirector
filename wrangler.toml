@@ -2,6 +2,11 @@ name = "redirector"
 main = "src/index.ts"
 compatibility_date = "2023-01-17"
 
+routes = [
+	{ pattern = "go.fayln.com", custom_domain = true },
+	{ pattern = "fariddd.com", custom_domain = true }
+]
+
 kv_namespaces = [
     { binding = "LINKS", id = "380a85f23f554719b009fa3540606564", preview_id = "10849edc02c94f12b148e3b0e40b61b2" }
 ]
